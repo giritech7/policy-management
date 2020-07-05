@@ -1,0 +1,7 @@
+---
+applications:
+  - name: policy-mgmt
+    buildpack: java_buildpack
+    path: target/policy-management-0.0.1-SNAPSHOT.war
+    services:
+      - policydb

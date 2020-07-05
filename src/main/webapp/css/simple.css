@@ -1,0 +1,47 @@
+
+.ok { 
+	background-color: #0a8819; 
+	color: black; 
+	padding: 5px;
+}
+
+input.invalid {
+	background: red;
+	color: #FDFDFD;
+}
+
+table.testgrid { 
+	border-collapse: collapse; 
+	border: 1px solid #CCB;
+	width: 100%;
+}
+
+table.testgrid tr {
+	border-bottom: 1px solid #DDD;
+}
+
+table.testgrid>tbody tr:hover {
+	background-color: lightgreen;
+	color: black;
+}
+
+table.testgrid>tbody tr:hover a {
+	color: black;
+}
+
+table.testgrid th {
+	background: #E5E5E5;
+	border: 1px solid #D5D5D5;
+	color: #555;
+	text-align: left;
+	padding-left: 5px;
+	padding-right: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	white-space: nowrap; 
+}
+
+table.testgrid td {
+	padding: 5px;
+	border: 1px solid #E0E0E0;
+}
